@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2016EEF0-6F50-4AAD-B0E3-C55DF76E5720}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Compilador</RootNamespace>
+    <AssemblyName>Compilador</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Analizador_Lexico\AST\actParsAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\addopAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\AST.cs" />
+    <Compile Include="Analizador_Lexico\AST\blockAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\blockConStatementAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\blockSinStatementAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\blockStatementAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\breakStatementAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\classConVarDeclAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\classDeclAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\classSinVarDeclAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\comaStatementAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\condFactAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\conditionAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\condTermAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\constDeclAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\declAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\declsAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\designatorAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\designatorConIdentExprAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\designatorSinIdentExprAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\designatorStatementActParsAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\designatorStatementAsignacionAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\designatorStatementAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\designatorStatementAumentoAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\designatorStatementDecrementoAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\designatorStatementSinActParsAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\designatorStatementUnActParsAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\exprAddopTermAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\exprAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\expreSoloTermAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\exprNegativaAddopTermAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\exprNegativaTermAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\factorAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\factorBoolAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\factorCharConstAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\factorDesignatorAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\factorDesignatorConActParsAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\factorDesignatorSinActParsAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\factorExprAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\factorNewAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\factorNewConExprAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\factorNewSinExprAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\factorNumberAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\formParsAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\forStatementAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\forStatementConCondFuntAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\forStatementConConditionAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\forStatementConFuntionAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\forStatementSoloDeclAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\identListAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\ifStatementAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\ifStatementConELseAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\ifStatementSinELseAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\Visitor.cs" />
+    <Compile Include="Analizador_Lexico\AST\listAddopTermAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\listCondFactAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\listCondTermAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\listExprAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\listIdentExprAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\listMulopFactorAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\listStatementsAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\listTipoIdentAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\methodConTipoAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\methodConVoidAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\methodDeclAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\methodTipoConFormDeclsAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\methodTipoSinFormDeclsAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\methodTipoSinFormParsAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\methodTipoSinVarDeclAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\methodVoidConFormDeclsAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\methodVoidSinFormDeclsAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\methodVoidSinFormParsAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\methodVoidSinVarDeclAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\mulopAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\programAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\programConTodoAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\programSinDeclAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\programSinMetAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\programSinNadaAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\readStatementAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\relopAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\returnStatementAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\returnStatementConExprAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\returnStatementSinExprAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\statementAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\termAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\termConMulopFactorAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\termSinMulopFactorAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\typeAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\typeConCorchetesAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\typeSinConCorchetesAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\unAddopTermAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\unCondFactAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\unCondTermAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\undeclAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\unExprAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\unIdentAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\unIdentExpreAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\unIdentExpreConExprAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\unIdentExpreConIdentAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\unMulopTermAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\unStatementAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\unTipoIdentAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\varAddopTermAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\varCondFactAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\varCondTermAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\varDeclAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\varExprAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\varIdentAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\varIdentExpreAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\varMulopTermAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\varsdeclAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\varStatementAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\varTipoIdentAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\whileStatementAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\writeStatementAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\writeStatementConNumAST.cs" />
+    <Compile Include="Analizador_Lexico\AST\writeStatementSinNumAST.cs" />
+    <Compile Include="Analizador_Lexico\parser.cs" />
+    <Compile Include="Analizador_Lexico\PrettyPrintAST.cs" />
+    <Compile Include="Analizador_Lexico\Scanner.cs" />
+    <Compile Include="Analizador_Lexico\sym.cs" />
+    <Compile Include="Analizador_Lexico\Driver.cs" />
+    <Compile Include="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Runtime\Symbol.cs" />
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image3.png" />
+    <None Include="Resources\image2.jpg" />
+    <None Include="Resources\image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Abrir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Acerca de.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guardar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Compilar.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

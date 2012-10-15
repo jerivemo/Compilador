@@ -1,0 +1,38 @@
+c:\users\ricardo\documents\visual studio 2010\Projects\Compilador\Compilador\bin\Debug\Compilador.exe
+c:\users\ricardo\documents\visual studio 2010\Projects\Compilador\Compilador\bin\Debug\Compilador.pdb
+c:\users\ricardo\documents\visual studio 2010\Projects\Compilador\Compilador\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\ricardo\documents\visual studio 2010\Projects\Compilador\Compilador\obj\x86\Debug\Compilador.ventInicio.resources
+c:\users\ricardo\documents\visual studio 2010\Projects\Compilador\Compilador\obj\x86\Debug\Compilador.Properties.Resources.resources
+c:\users\ricardo\documents\visual studio 2010\Projects\Compilador\Compilador\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\ricardo\documents\visual studio 2010\Projects\Compilador\Compilador\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\ricardo\documents\visual studio 2010\Projects\Compilador\Compilador\obj\x86\Debug\Compilador.exe
+c:\users\ricardo\documents\visual studio 2010\Projects\Compilador\Compilador\obj\x86\Debug\Compilador.pdb
+c:\users\ricardo\documents\visual studio 2010\Projects\Compilador\Compilador\obj\x86\Debug\Compilador.Principal.resources
+C:\Users\Ricardo\Google Drive\corriendo\Compilador\Compilador\obj\x86\Debug\Compilador.exe
+C:\Users\fr0609\Google Drive\TEC 2012\2\Compiladores e Interpretes\Proyecto\New folder\corriendo\Compilador\Compilador\obj\x86\Debug\Compilador.exe
+C:\Users\fr0609\Google Drive\TEC 2012\2\Compiladores e Interpretes\Proyecto\New folder\corriendo\Compilador\Compilador\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\fr0609\Google Drive\TEC 2012\2\Compiladores e Interpretes\Proyecto\New folder\corriendo\Compilador\Compilador\obj\x86\Debug\Compilador.ventInicio.resources
+C:\Users\fr0609\Google Drive\TEC 2012\2\Compiladores e Interpretes\Proyecto\New folder\corriendo\Compilador\Compilador\obj\x86\Debug\Compilador.Principal.resources
+C:\Users\fr0609\Google Drive\TEC 2012\2\Compiladores e Interpretes\Proyecto\New folder\corriendo\Compilador\Compilador\obj\x86\Debug\Compilador.Properties.Resources.resources
+C:\Users\fr0609\Google Drive\TEC 2012\2\Compiladores e Interpretes\Proyecto\New folder\corriendo\Compilador\Compilador\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\fr0609\Google Drive\TEC 2012\2\Compiladores e Interpretes\Proyecto\New folder\corriendo\Compilador\Compilador\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\fr0609\Google Drive\TEC 2012\2\Compiladores e Interpretes\Proyecto\New folder\corriendo\Compilador\Compilador\bin\Debug\Compilador.exe
+C:\Users\fr0609\Google Drive\TEC 2012\2\Compiladores e Interpretes\Proyecto\New folder\corriendo\Compilador\Compilador\bin\Debug\Compilador.pdb
+C:\Users\fr0609\Google Drive\TEC 2012\2\Compiladores e Interpretes\Proyecto\New folder\corriendo\Compilador\Compilador\obj\x86\Debug\Compilador.pdb
+C:\Users\Ricardo\Google Drive\corriendo\Compilador\Compilador\obj\x86\Debug\Compilador.pdb
+C:\Users\Ricardo\Google Drive\corriendo\Compilador\Compilador\bin\Debug\Compilador.exe
+C:\Users\Ricardo\Google Drive\corriendo\Compilador\Compilador\bin\Debug\Compilador.pdb
+C:\Users\Ricardo\Google Drive\corriendo\Compilador\Compilador\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ricardo\Google Drive\corriendo\Compilador\Compilador\obj\x86\Debug\Compilador.ventInicio.resources
+C:\Users\Ricardo\Google Drive\corriendo\Compilador\Compilador\obj\x86\Debug\Compilador.Principal.resources
+C:\Users\Ricardo\Google Drive\corriendo\Compilador\Compilador\obj\x86\Debug\Compilador.Properties.Resources.resources
+C:\Users\Ricardo\Google Drive\corriendo\Compilador\Compilador\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Ricardo\Google Drive\corriendo\Compilador\Compilador\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\JOTAE\Google Drive\TEC - 2012\II Semestre\Compiladores e Interpretes\corriendo\Compilador\Compilador\obj\x86\Debug\Compilador.exe
+C:\Users\JOTAE\Google Drive\TEC - 2012\II Semestre\Compiladores e Interpretes\corriendo\Compilador\Compilador\obj\x86\Debug\Compilador.pdb
+C:\Users\JOTAE\Google Drive\TEC - 2012\II Semestre\Compiladores e Interpretes\corriendo\Compilador\Compilador\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\JOTAE\Google Drive\TEC - 2012\II Semestre\Compiladores e Interpretes\corriendo\Compilador\Compilador\obj\x86\Debug\Compilador.ventInicio.resources
+C:\Users\JOTAE\Google Drive\TEC - 2012\II Semestre\Compiladores e Interpretes\corriendo\Compilador\Compilador\obj\x86\Debug\Compilador.Principal.resources
+C:\Users\JOTAE\Google Drive\TEC - 2012\II Semestre\Compiladores e Interpretes\corriendo\Compilador\Compilador\obj\x86\Debug\Compilador.Properties.Resources.resources
+C:\Users\JOTAE\Google Drive\TEC - 2012\II Semestre\Compiladores e Interpretes\corriendo\Compilador\Compilador\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\JOTAE\Google Drive\TEC - 2012\II Semestre\Compiladores e Interpretes\corriendo\Compilador\Compilador\obj\x86\Debug\GenerateResource.write.1.tlog

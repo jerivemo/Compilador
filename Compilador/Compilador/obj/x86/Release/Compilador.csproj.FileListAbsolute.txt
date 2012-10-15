@@ -1,0 +1,20 @@
+c:\users\ricardo\documents\visual studio 2010\Projects\Compilador\Compilador\bin\Release\Compilador.exe
+c:\users\ricardo\documents\visual studio 2010\Projects\Compilador\Compilador\bin\Release\Compilador.pdb
+c:\users\ricardo\documents\visual studio 2010\Projects\Compilador\Compilador\obj\x86\Release\ResolveAssemblyReference.cache
+c:\users\ricardo\documents\visual studio 2010\Projects\Compilador\Compilador\obj\x86\Release\Compilador.ventInicio.resources
+c:\users\ricardo\documents\visual studio 2010\Projects\Compilador\Compilador\obj\x86\Release\Compilador.Principal.resources
+c:\users\ricardo\documents\visual studio 2010\Projects\Compilador\Compilador\obj\x86\Release\Compilador.Properties.Resources.resources
+c:\users\ricardo\documents\visual studio 2010\Projects\Compilador\Compilador\obj\x86\Release\GenerateResource.read.1.tlog
+c:\users\ricardo\documents\visual studio 2010\Projects\Compilador\Compilador\obj\x86\Release\GenerateResource.write.1.tlog
+c:\users\ricardo\documents\visual studio 2010\Projects\Compilador\Compilador\obj\x86\Release\Compilador.exe
+c:\users\ricardo\documents\visual studio 2010\Projects\Compilador\Compilador\obj\x86\Release\Compilador.pdb
+C:\Users\fr0609\Google Drive\TEC 2012\2\Compiladores e Interpretes\Proyecto\New folder\corriendo\Compilador\Compilador\obj\x86\Release\Compilador.exe
+C:\Users\fr0609\Google Drive\TEC 2012\2\Compiladores e Interpretes\Proyecto\New folder\corriendo\Compilador\Compilador\obj\x86\Release\Compilador.pdb
+C:\Users\fr0609\Google Drive\TEC 2012\2\Compiladores e Interpretes\Proyecto\New folder\corriendo\Compilador\Compilador\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\fr0609\Google Drive\TEC 2012\2\Compiladores e Interpretes\Proyecto\New folder\corriendo\Compilador\Compilador\obj\x86\Release\Compilador.ventInicio.resources
+C:\Users\fr0609\Google Drive\TEC 2012\2\Compiladores e Interpretes\Proyecto\New folder\corriendo\Compilador\Compilador\obj\x86\Release\Compilador.Principal.resources
+C:\Users\fr0609\Google Drive\TEC 2012\2\Compiladores e Interpretes\Proyecto\New folder\corriendo\Compilador\Compilador\obj\x86\Release\Compilador.Properties.Resources.resources
+C:\Users\fr0609\Google Drive\TEC 2012\2\Compiladores e Interpretes\Proyecto\New folder\corriendo\Compilador\Compilador\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\fr0609\Google Drive\TEC 2012\2\Compiladores e Interpretes\Proyecto\New folder\corriendo\Compilador\Compilador\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\fr0609\Google Drive\TEC 2012\2\Compiladores e Interpretes\Proyecto\New folder\corriendo\Compilador\Compilador\bin\Release\Compilador.exe
+C:\Users\fr0609\Google Drive\TEC 2012\2\Compiladores e Interpretes\Proyecto\New folder\corriendo\Compilador\Compilador\bin\Release\Compilador.pdb
